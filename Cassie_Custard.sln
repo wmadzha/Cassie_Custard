@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Cassandra.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Template.DataAccess", "Cassandra.Template.DataAccess\CassieCustard.Template.DataAccess.csproj", "{567863EE-78BF-40DC-8264-4101E88A9669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Builder", "CassieCustard.Builder\CassieCustard.Builder.csproj", "{C6F27215-1DF1-4EFD-9849-8370681F8B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{567863EE-78BF-40DC-8264-4101E88A9669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567863EE-78BF-40DC-8264-4101E88A9669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567863EE-78BF-40DC-8264-4101E88A9669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
