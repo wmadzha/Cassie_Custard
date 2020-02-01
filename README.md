@@ -1,6 +1,6 @@
 # Cassie_Custard
 
-Cassie Custard is an ORM helper template for dealing with Cassandra datastore endpoint. Its motivation is to simplyfy session initialization and entity definition mapping that we might have inside our modules/boundries. Having multiple instance of Cassandra end point in our system require a new CassandraContext object initialized.
+Cassie Custard is an ORM helper template for dealing with Cassandra datastore endpoint. Its motivation is to simplyfy session initialization and entity definition mapping that we might have inside our modules/boundries. Having multiple instance of Cassandra end point in our system require a new CassandraContext object to be initialized.
 
 # Its Lightweight
 
