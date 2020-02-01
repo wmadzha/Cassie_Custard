@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cassandra.Template.DataAccess\CassieCustard.Template.DataAccess.csproj" />
+    <ProjectReference Include="..\CassieCustard.Template.DataAccess\CassieCustard.Template.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

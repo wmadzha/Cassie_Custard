@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Cassandra.Core", "CassieCustard.Cassandra.Core\CassieCustard.Cassandra.Core.csproj", "{196E5649-8AB6-4F62-A552-92649E2A0AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CassieCustard.Cassandra.Core", "CassieCustard.Cassandra.Core\CassieCustard.Cassandra.Core.csproj", "{196E5649-8AB6-4F62-A552-92649E2A0AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Template.DataAccess", "Cassandra.Template.DataAccess\CassieCustard.Template.DataAccess.csproj", "{567863EE-78BF-40DC-8264-4101E88A9669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CassieCustard.Builder", "CassieCustard.Builder\CassieCustard.Builder.csproj", "{C6F27215-1DF1-4EFD-9849-8370681F8B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieCustard.Builder", "CassieCustard.Builder\CassieCustard.Builder.csproj", "{C6F27215-1DF1-4EFD-9849-8370681F8B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CassieCustard.Template.DataAccess", "CassieCustard.Template.DataAccess\CassieCustard.Template.DataAccess.csproj", "{29B87BB7-49D8-4AC1-9DF3-7CE4EB8649B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{196E5649-8AB6-4F62-A552-92649E2A0AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196E5649-8AB6-4F62-A552-92649E2A0AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196E5649-8AB6-4F62-A552-92649E2A0AE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{567863EE-78BF-40DC-8264-4101E88A9669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{567863EE-78BF-40DC-8264-4101E88A9669}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{567863EE-78BF-40DC-8264-4101E88A9669}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{567863EE-78BF-40DC-8264-4101E88A9669}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F27215-1DF1-4EFD-9849-8370681F8B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B87BB7-49D8-4AC1-9DF3-7CE4EB8649B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B87BB7-49D8-4AC1-9DF3-7CE4EB8649B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B87BB7-49D8-4AC1-9DF3-7CE4EB8649B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B87BB7-49D8-4AC1-9DF3-7CE4EB8649B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
