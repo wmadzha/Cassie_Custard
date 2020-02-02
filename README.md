@@ -6,6 +6,22 @@ Cassie Custard is an ORM helper template for dealing with Cassandra datastore en
 
 It consists of a small chunk of code, and depending on how we design the entity model inside our module we may just define them as CassandraEntitySet provided that the model designed is implementing ICassandraEntity interface. 
 
+# How To Play 
+
+1. Create a new Azure Cosmos DB ( Cassandra DB ) in Azure
+
+2. Get The Credentials 
+
+3. Enter Details 
+
+- Contact Point
+
+- Keyspace Name ( Created on Azure or Hardcoded ( Code first Approach ) )
+
+- Username
+
+- Password
+
 # Special Thanks To
 
 DataStax ( CassandraCSharpDriver ) - [View License](https://github.com/datastax/csharp-driver/blob/master/LICENSE) 
