@@ -19,6 +19,12 @@ namespace CassieCustard.ConsoleApp
             UpdateData(singleData, Context);
             // Try Get Back The Updated Data Against Cassandra
             singleData = GetSingleData(lastofthelist, Context);
+            // Try Delete Single Data In Cassandra ( In this case updated data )
+            DeleteSingleData(singleData, Context);
+            // Iterate Back Data Table
+            GetLatestData_Model1(Context);
+            // Clean Up Cassandra Datastore
+            DropTable(Context);
 
             Console.ReadLine();
         }
@@ -87,6 +93,27 @@ namespace CassieCustard.ConsoleApp
             Console.WriteLine("Trying To Update Entity" + Environment.NewLine);
             data.BusinessModelName = "UpdatedModelName";
             ctx.Model1.Edit(data);
+        }
+        /// <summary>
+        /// Delete single data against cassandra datastore
+        /// </summary>
+        /// <param name="data">data isntance with appropriate id</param>
+        /// <param name="ctx">Data store context instance</param>
+        static void DeleteSingleData(BusinessModel_1 data, SampleModuleContext ctx)
+        {
+            Console.WriteLine("Delete The Updated Entity" + Environment.NewLine);
+            ctx.Model1.Delete(data);
+        }
+        /// <summary>
+        /// Clean up our cassandra data store
+        /// </summary>
+        /// <param name="ctx">Data store context instance</param>
+        static void DropTable(SampleModuleContext ctx)
+        {
+            Console.WriteLine("Cleaning Up Cassandra DB" + Environment.NewLine);
+            ctx.Model1.DropTable();
+            ctx.Model2.DropTable();
+            Console.WriteLine("Cleaning Up Complete" + Environment.NewLine);
         }
     }
 }
