@@ -111,7 +111,9 @@ namespace CassieCustard.ConsoleApp
         static void DropTable(SampleModuleContext ctx)
         {
             Console.WriteLine("Cleaning Up Cassandra DB" + Environment.NewLine);
+            // Remove Data From Testing Table
             ctx.Model1.DropTable();
+            // Remove Data From Testing Table
             ctx.Model2.DropTable();
             Console.WriteLine("Cleaning Up Complete" + Environment.NewLine);
         }
